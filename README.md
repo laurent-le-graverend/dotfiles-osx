@@ -1,6 +1,6 @@
 # Laurent’s dotfiles
 
-_Forked from Mathias’s dotfiles_
+_[Forked from Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)_
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
@@ -33,14 +33,14 @@ set -- -f; source bootstrap.sh
 To install these dotfiles without Git:
 
 ```bash
-cd; curl -#L https://github.com/mathiasbynens/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,.osx,LICENSE-MIT.txt}
+cd; curl -#L https://github.com/laurent-le-graverend/dotfiles-osx/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,.osx,LICENSE-MIT.txt}
 ```
 
 To update later on, just run that command again.
 
 ### Specify the `$PATH`
 
-If `~/.path` exists, it will be sourced along with the other files, before any feature testing (such as [detecting which version of `ls` is being used](https://github.com/mathiasbynens/dotfiles/blob/aff769fd75225d8f2e481185a71d5e05b76002dc/.aliases#L21-26)) takes place.
+If `~/.path` exists, it will be sourced along with the other files, before any feature testing (such as [detecting which version of `ls` is being used](https://github.com/laurent-le-graverend/dotfiles-osx/blob/aff769fd75225d8f2e481185a71d5e05b76002dc/.aliases#L21-26)) takes place.
 
 Here’s an example `~/.path` file that adds `/usr/local/bin` to the `$PATH`:
 
@@ -65,7 +65,7 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
-You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/mathiasbynens/dotfiles/fork) instead, though.
+You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/laurent-le-graverend/dotfiles-osx/fork) instead, though.
 
 ### Sensible macOS defaults
 
@@ -88,7 +88,7 @@ Some of the functionality of these dotfiles depends on formulae installed by `br
 ## Feedback
 
 Suggestions/improvements
-[welcome](https://github.com/mathiasbynens/dotfiles/issues)!
+[welcome](https://github.com/laurent-le-graverend/dotfiles-osx/issues)!
 
 ## Author
 
@@ -110,4 +110,4 @@ Suggestions/improvements
 * [Tom Ryder](https://sanctum.geek.nz/) and his [dotfiles repository](https://sanctum.geek.nz/cgit/dotfiles.git/about)
 * [Kevin Suttle](http://kevinsuttle.com/) and his [dotfiles repository](https://github.com/kevinSuttle/dotfiles) and [macOS-Defaults project](https://github.com/kevinSuttle/macOS-Defaults), which aims to provide better documentation for [`~/.macos`](https://mths.be/macos)
 * [Haralan Dobrev](https://hkdobrev.com/)
-* Anyone who [contributed a patch](https://github.com/mathiasbynens/dotfiles/contributors) or [made a helpful suggestion](https://github.com/mathiasbynens/dotfiles/issues)
+* Anyone who [contributed a patch](https://github.com/laurent-le-graverend/dotfiles-osx/contributors) or [made a helpful suggestion](https://github.com/laurent-le-graverend/dotfiles-osx/issues)
