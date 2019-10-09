@@ -46,9 +46,6 @@ set number
 syntax on
 " Highlight current line
 set cursorline
-" Smart indent + toggle it with F10"
-set smartindent
-set pastetoggle=<F10>
 " Make tabs as wide as two spaces
 set tabstop=2
 " Show “invisible” characters
