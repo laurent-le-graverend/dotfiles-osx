@@ -15,6 +15,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias g="git"
 alias gst="git status"
+alias aws-auth="source ~/.aws/mfa.sh $1"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
